@@ -4,7 +4,7 @@
      <div class="container">
        <div class="row align-items-center">
          <div class="col-md-6 text-center text-md-left">
-           <p class="mb-md-0">© 2020 Amélie. Tous droits réservés.</p>
+           <p class="mb-md-0">© 2020 Amélie</p>
          </div>
          <div class="col-md-6">
          </div>

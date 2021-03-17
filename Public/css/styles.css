@@ -35,6 +35,7 @@ h1 {
 .character-details span {
   margin-bottom: 2em;
   height: 10em;
+  padding: 5px;
 }
 
 .character-details p {
@@ -75,13 +76,13 @@ h1 {
 }
 
 .navbar {
-  border-bottom: 4mm ridge rgba(2, 38, 245, 0.6);
-  background-color: rgba(141, 134, 236, 0.561);
+  background-color: rgba(2, 38, 245, 0.171);
+  height: 6em;
 }
 
 .nav-item {
   text-transform: uppercase;
-  font-size: .9em;
+  font-size: 1.1em;
   font-weight: 300;
 }
 
@@ -91,13 +92,8 @@ h1 {
   text-transform: uppercase;
 }
 
-.navbar-icon-link {
-  color: #343a40;
+.nav-link {
   margin: 0 .5em;
-}
-
-.navbar-icon-link:hover {
-  text-decoration: #1d4da6;
 }
 
 .product {

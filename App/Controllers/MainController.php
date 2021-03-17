@@ -33,6 +33,8 @@ class MainController
     // cette méthode étant appelée pour toutes les pages du site, 
     // on peut récupérer les spécifiques au footer et header qui sont également sur toutes les pages du site
 
+    $viewVars['currentPage'] = $templateName;
+
     require_once __DIR__ . '/../views/_header.tpl.php';
     require_once __DIR__ . '/../views/' . $templateName . '.tpl.php';
     require_once __DIR__ . '/../views/_footer.tpl.php';

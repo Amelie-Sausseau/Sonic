@@ -22,13 +22,13 @@
         <div id="navbarCollapse" class="collapse navbar-collapse">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a href="<?= $router->url(''); ?>" class="nav-link active">Home</a>
+              <a href="<?= $router->url(''); ?>" class="nav-link <?php if ($templateName == 'home') {echo 'active';} ?>">Home</a>
             </li>
             <li class="nav-item">
-              <a href="<?= $router->url('content/creators/'); ?>" class="nav-link">Créateurs</a>
+              <a href="<?= $router->url('content/creators/'); ?>" class="nav-link <?php if ($templateName == 'creators'){echo 'active';}?>">Créateurs</a>
             </li>
             <li class="nav-item">
-              <a href="<?= $router->url('content/games/'); ?>" class="nav-link">Jeux</a>
+              <a href="<?= $router->url('content/games/'); ?>" class="nav-link <?php if ($templateName == 'games'){echo 'active';}?>">Jeux</a>
             </li>
           </ul>
           <div class="d-flex align-items-center justify-content-between justify-content-lg-end mt-1 mb-2 my-lg-0">
