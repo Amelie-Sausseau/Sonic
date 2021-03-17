@@ -1,11 +1,11 @@
-<section id="creators">
+<section>
     <div class="container-fluid">
+    <h1>Quelques jeux</h1>
         <div class="row">
-            <h1>Quelques jeux</h1>
             <?php foreach ($viewVars['games'] as $currentGame) : ?>
                 <!-- games -->
-                <table class="character-details">
-                    <td class="img-fluid"><img src="<?= $router->url($currentGame->getPicture()); ?>" alt="<?= $currentGame->getName(); ?>" class="product" width="10%"></td>
+                <table class="games-details">
+                    <td class="img-fluid"><img src="<?= $router->url($currentGame->getPicture()); ?>" alt="<?= $currentGame->getName(); ?>" class="product"></td>
                     <td>
                         <h3><?= $currentGame->getName(); ?></h3>
                     </td>
@@ -13,7 +13,7 @@
                         <aside><?= $currentGame->getRelease(); ?></aside>
                     </td>
                     <td>
-                        <aside><?= $currentGame->getConsole(); ?></aside>
+                        <span><?= $currentGame->getConsole(); ?></span>
                     </td>
                 </table>
                 <!-- /games -->

@@ -1,5 +1,6 @@
   <section>
     <div class="container-fluid">
+    <h1>Les personnages</h1>
       <div class="row">
         <?php foreach ($viewVars['characters'] as $currentCharacter) : ?>
           <!-- characters-->

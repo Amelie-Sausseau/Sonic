@@ -6,11 +6,16 @@ a:hover {
   color: rgba(0, 0, 0, .6);
 }
 
+h1 {
+  margin: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .character-details {
-  border-bottom: #1d4da6 3px solid;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
+  border: #1d4da62a 1px solid;
+  width: 23%;
+  margin: 10px;
 }
 
 .character-details td {
@@ -20,7 +25,8 @@ a:hover {
 }
 
 .character-details img {
-  width: 9em;
+  max-width: 15em;
+  height: 15em;
   margin: 3em;
   display: flex;
   align-self: center;
@@ -28,6 +34,7 @@ a:hover {
 
 .character-details span {
   margin-bottom: 2em;
+  height: 10em;
 }
 
 .character-details p {
@@ -36,6 +43,35 @@ a:hover {
 
 .character-details h3 {
   font-weight: bold;
+}
+
+.games-details {
+  border: #1d4da62a 1px solid;
+  width: 23%;
+  margin: 10px;
+}
+
+.games-details h3 {
+  font-weight: bold;
+  height: 2em;
+}
+
+.games-details img {
+  max-width: 15em;
+  height: 15em;
+  margin: 3em;
+  display: flex;
+  align-self: center;
+}
+
+.games-details span {
+  height: 3em;
+}
+
+.games-details td {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .navbar {
@@ -80,6 +116,12 @@ a:hover {
   z-index: 1;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1), -1px -1px 2px rgba(0, 0, 0, 0.1);
   transform: scale(1.1);
+}
+
+.row {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #creators .row {
