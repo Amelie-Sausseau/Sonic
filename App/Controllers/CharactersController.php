@@ -6,9 +6,8 @@ use App\Models\Characters;
 use App\Models\Type;
 
 
-class CatalogController
+class CharactersController
 {
-  // Gère les requêtes GET /category
   // => déclenche l'affichage d'un template spécifique
   public function characters($params)
   {
