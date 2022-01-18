@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg navbar-sticky navbar-airy navbar-light">
       <div class="container-fluid">
         <!-- Navbar Header  -->
-        <img src="<?= $router->url('images/sonic-the-hedgehog-1.png'); ?>" alt="sonic" width="65px"> <a href="<?= $router->url(''); ?>" class="navbar-brand"> &#x2661; Sonic</a>
+        <img src="<?= $router->url('images/sonic-the-hedgehog-1.png'); ?>" alt="sonic" width="65px"> <a href="<?= $router->url(''); ?>" class="navbar-brand">I &#x2661; Sonic</a>
         <button type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
         <!-- Navbar Collapse -->
         <div id="navbarCollapse" class="collapse navbar-collapse">

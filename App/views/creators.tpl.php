@@ -4,11 +4,17 @@
             <h1>Créateurs</h1>
             <?php
             $creators = [
-                'Hirokazu Yasuhara' => 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex reprehenderit, mollitia porro maxime error inventore impedit facere sequi velit, ipsum saepe pariatur qui voluptates quae iste nisi. Impedit, fuga ipsum! Quaerat, ducimus. Voluptatum quae dolore reprehenderit laboriosam modi vero alias voluptate sit, architecto sunt accusamus adipisci sint ducimus consequuntur totam pariatur ab. Aliquid autem error minima, doloribus fugiat nisi illo minus est molestias vitae sapiente fuga harum sit atque aspernatur. At in sed dolorem eos sequi aperiam consequuntur nesciunt iusto porro odio culpa, nisi modi. Illum quisquam rerum ducimus provident in cum, odio molestias eum quia! Eos dolorem expedita nam?',
+                'Hirokazu Yasuhara' => 'Né le 12 octobre 1965 au Japon, c\'est un designer japonais de jeu vidéo. Ancien membre important du studio Sonic Team, il a occupé des fonctions artistiques chez Naughty Dog, et plus récemment pour Namco Bandai.',
 
-                'Yuji Naka' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla non porro eius. Facere nam necessitatibus labore quo illo nesciunt sapiente rem incidunt, vero tempore dolor unde reiciendis aliquam voluptas iste est animi, magni iure consectetur, fugit fugiat quidem aperiam. Deleniti quisquam, ab in sit numquam ducimus odit accusamus distinctio expedita rem dolor nulla iusto maiores tempora consequuntur laborum? Dolorem blanditiis ad atque doloribus minima laborum ea. Ad voluptas expedita repellendus voluptatem, culpa enim quam tempora accusantium quisquam pariatur non numquam, repellat ea id perspiciatis odio neque. Incidunt aliquam optio voluptatum culpa in, dolores amet facere perferendis possimus eum velit nemo.',
+                'Yuji Naka' => 'Yuji Naka est un développeur de jeux vidéo né le 17 septembre 1965 au Japon. Il a été programmeur principal sur le jeu Sonic the Hedgehog.Alors qu\'il est encore au lycée, il sait déjà qu\'il veut travailler dans l\'industrie des jeux vidéo. Il rentre chez Sega comme programmeur en 1984 ; son premier jeu, Girl\'s Garden, sort la même année. En 1991, il est à l\'origine, avec Naoto Oshima et Hirokazu Yasuhara, de Sonic the Hedgehog sur Mega Drive qui va rapidement devenir culte, au même titre que Mario. Il fut à la tête de l\'équipe de développement de jeux vidéo, la Sonic Team, jusqu\'au 16 mars 2006 où il quitte Sega pour fonder le studio Prope.
 
-                'Naoto Ōshima' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptates at impedit! Facilis unde repellat delectus! Excepturi in delectus earum eveniet, fugiat vero doloribus tempora quam rerum error quisquam quod harum explicabo, maiores, nostrum modi illo? Provident quibusdam similique rerum temporibus, accusamus sit explicabo facilis harum? Amet delectus ea suscipit ex. Nam cum voluptas nisi. Placeat assumenda labore magnam inventore quas cupiditate provident fuga dignissimos, iusto voluptatibus dolorem, eius voluptates dolorum aliquam impedit eum perferendis soluta ipsa vero asperiores a beatae maiores, delectus tempora. Mollitia ab eligendi enim odio nostrum, quidem atque facilis maiores ducimus labore suscipit, placeat, veritatis dicta!'
+                En janvier 2018 il rejoint officiellement Square Enix.
+                
+                En juillet 2020, Square Enix annonce la création de Balan Company. Dirigé par Yuji Naka, ce nouveau studio interne à l\'éditeur japonais se spécialisera aux jeux d\'action. Le premier jeu Balan Wonderworld a été révélé lors du pré-show du Xbox Games Showcase, le 23 juillet 2020 et sortira en mars 2021.',
+
+                'Naoto Ōshima' => 'Naoto Ōshima est un designer japonais de jeu vidéo, ancien employé de Sega, principalement connu pour avoir modelé le design de Sonic et Eggman.
+
+                Après avoir quitté Sonic Team, Ōshima fonde un studio de développement indépendant nommé Artoon.'
             ];
 
 

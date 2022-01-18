@@ -13,8 +13,8 @@ class Type
   private $updated_at;
 
   /**
-   * Permet de retrouver en BDD les infos d'une
-   * marque spécifique, en fonction d'un ID.
+   * Permet de retrouver en BDD le type
+   * du personnage en fonction d'un ID.
    *
    * @param [type] $id
    * @return self
